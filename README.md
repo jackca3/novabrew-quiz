@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NovaBrew Coffee Taste Profile Quiz
 
-## Getting Started
+A personality-based coffee matching experience built for NovaBrew Coffee Co. The quiz helps customers discover their coffee personality, see a backup vibe, and get matched with a roast that fits their taste and routine.
 
-First, run the development server:
+## Why This Exists
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+NovaBrew wants a more personal subscription experience. This prototype turns a simple quiz into a customer-personalization tool that can support better product matching, more memorable onboarding, and stronger subscriber retention.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Coffee Personalities
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Bold Explorer**: intense, adventurous, and drawn to dark roast energy.
+- **Smooth Operator**: balanced, polished, and dependable in the best way.
+- **Cozy Classic**: comforting, familiar, and built for slow mornings.
+- **Wild Card**: curious, surprising, and always open to something new.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What The Quiz Does
 
-## Learn More
+- Guides users through six personality questions
+- Scores answers across four coffee personality types
+- Resolves ties using the latest matching answer
+- Reveals a primary result and backup vibe
+- Recommends a matching NovaBrew coffee
+- Presents a share-ready result card for social or text
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Product Highlights
 
-## Deploy on Vercel
+- Mobile-friendly layout
+- Premium warm-toned visual design
+- Light motion and celebratory result confetti
+- Native share support with clipboard fallback
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## About The Prototype
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was built as a business-focused product prototype to show how AI-assisted development can turn a customer-personalization idea into a working interactive web app quickly.
